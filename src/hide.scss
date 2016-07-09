@@ -1,0 +1,15 @@
+.hide, .hide-xs{ position:absolute !important; height:1px; width:1px; overflow:hidden; clip:rect(1px, 1px, 1px, 1px); }
+.display-none, .display-none-xs{ display:none !important }
+
+@media (min-width: $screen-sm-min) {
+  .hide-sm{ position:absolute !important; height:1px; width:1px; overflow:hidden; clip:rect(1px, 1px, 1px, 1px); }
+  .display-none-sm{ display:none !important }
+}
+@media (min-width: $screen-md-min) {
+  .hide-md{ position:absolute !important; height:1px; width:1px; overflow:hidden; clip:rect(1px, 1px, 1px, 1px); }
+  .display-none-md{ display:none !important }
+}
+@media (min-width: $screen-lg-min) {
+  .hide-lg{ position:absolute !important; height:1px; width:1px; overflow:hidden; clip:rect(1px, 1px, 1px, 1px); }
+  .display-none-lg{ display:none !important }
+}

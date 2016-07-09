@@ -1,0 +1,161 @@
+.inline, .inline-xs{ display:inline }
+.block, .block-xs{ display:block }
+.inline-block, .inline-block-xs{ display:inline-block }
+.table, .table-xs{ display:table }
+.table-fixed, .table-fixed-xs{ table-layout:fixed }
+.table-cell, .table-cell-xs{ display:table-cell }
+
+.overflow-hidden, .overflow-hidden-xs{ overflow:hidden }
+.overflow-scroll, .overflow-scroll-xs{ overflow:scroll }
+.overflow-auto, .overflow-auto-xs{ overflow:auto }
+
+.clearfix:before,
+.clearfix-xs:before,
+.clearfix:after,
+.clearfix-xs:after { content:" "; display:table }
+.clearfix:after, .clearfix-xs:after { clear:both }
+
+.left, .left-xs{ float:left }
+.right, .right-xs{ float:right }
+
+.fit, .fit-xs{ max-width:100% }
+.fill, .fill-xs{ width:100% }
+
+.width-10, .width-10-xs{ width: 10% }
+.width-20, .width-20-xs{ width: 20% }
+.width-30, .width-30-xs{ width: 30% }
+.width-40, .width-40-xs{ width: 40% }
+.width-50, .width-50-xs{ width: 50% }
+.width-60, .width-60-xs{ width: 60% }
+.width-70, .width-70-xs{ width: 70% }
+.width-80, .width-80-xs{ width: 80% }
+.width-90, .width-90-xs{ width: 90% }
+.width-100, .width-100-xs{ width: 100% }
+
+.max-width-1, .max-width-xs-1{ max-width: 24rem }
+.max-width-2, .max-width-xs-2{ max-width: 32rem }
+.max-width-3, .max-width-xs-3{ max-width: 48rem }
+.max-width-4, .max-width-xs-4{ max-width: 64rem }
+
+.border-box, .border-box-xs{ box-sizing:border-box }
+
+@media (min-width: $screen-sm-min) {
+  .inline-sm{ display:inline }
+  .block-sm{ display:block }
+  .inline-block-sm{ display:inline-block }
+  .table-sm{ display:table }
+  .table-fixed-sm{ table-layout:fixed }
+  .table-cell-sm{ display:table-cell }
+
+  .overflow-hidden-sm{ overflow:hidden }
+  .overflow-scroll-sm{ overflow:scroll }
+  .overflow-auto-sm{ overflow:auto }
+
+  .clearfix:before,
+  .clearfix:after-sm{ content:" "; display:table }
+  .clearfix:after-sm{ clear:both }
+
+  .left-sm{ float:left }
+  .right-sm{ float:right }
+
+  .fit-sm{ max-width:100% }
+  .fill-sm{ width:100% }
+
+  .width-10-sm{ width: 10% }
+  .width-20-sm{ width: 20% }
+  .width-30-sm{ width: 30% }
+  .width-40-sm{ width: 40% }
+  .width-50-sm{ width: 50% }
+  .width-60-sm{ width: 60% }
+  .width-70-sm{ width: 70% }
+  .width-80-sm{ width: 80% }
+  .width-90-sm{ width: 90% }
+  .width-100-sm{ width: 100% }
+
+  .max-width-sm-1{ max-width: 24rem }
+  .max-width-sm-2{ max-width: 32rem }
+  .max-width-sm-3{ max-width: 48rem }
+  .max-width-sm-4{ max-width: 64rem }
+
+  .border-box-sm{ box-sizing:border-box }
+}
+@media (min-width: $screen-md-min) {
+  .inline-md{ display:inline }
+  .block-md{ display:block }
+  .inline-block-md{ display:inline-block }
+  .table-md{ display:table }
+  .table-fixed-md{ table-layout:fixed }
+  .table-cell-md{ display:table-cell }
+
+  .overflow-hidden-md{ overflow:hidden }
+  .overflow-scroll-md{ overflow:scroll }
+  .overflow-auto-md{ overflow:auto }
+
+  .clearfix:before,
+  .clearfix:after-md{ content:" "; display:table }
+  .clearfix:after-md{ clear:both }
+
+  .left-md{ float:left }
+  .right-md{ float:right }
+
+  .fit-md{ max-width:100% }
+  .fill-md{ width:100% }
+
+  .width-10-md{ width: 10% }
+  .width-20-md{ width: 20% }
+  .width-30-md{ width: 30% }
+  .width-40-md{ width: 40% }
+  .width-50-md{ width: 50% }
+  .width-60-md{ width: 60% }
+  .width-70-md{ width: 70% }
+  .width-80-md{ width: 80% }
+  .width-90-md{ width: 90% }
+  .width-100-md{ width: 100% }
+
+  .max-width-md-1{ max-width: 24rem }
+  .max-width-md-2{ max-width: 32rem }
+  .max-width-md-3{ max-width: 48rem }
+  .max-width-md-4{ max-width: 64rem }
+
+  .border-box-md{ box-sizing:border-box }
+}
+@media (min-width: $screen-lg-min) {
+  .inline-lg{ display:inline }
+  .block-lg{ display:block }
+  .inline-block-lg{ display:inline-block }
+  .table-lg{ display:table }
+  .table-fixed-lg{ table-layout:fixed }
+  .table-cell-lg{ display:table-cell }
+
+  .overflow-hidden-lg{ overflow:hidden }
+  .overflow-scroll-lg{ overflow:scroll }
+  .overflow-auto-lg{ overflow:auto }
+
+  .clearfix:before,
+  .clearfix:after-lg{ content:" "; display:table }
+  .clearfix:after-lg{ clear:both }
+
+  .left-lg{ float:left }
+  .right-lg{ float:right }
+
+  .fit-lg{ max-width:100% }
+  .fill-lg{ width:100% }
+
+  .width-10-lg{ width: 10% }
+  .width-20-lg{ width: 20% }
+  .width-30-lg{ width: 30% }
+  .width-40-lg{ width: 40% }
+  .width-50-lg{ width: 50% }
+  .width-60-lg{ width: 60% }
+  .width-70-lg{ width: 70% }
+  .width-80-lg{ width: 80% }
+  .width-90-lg{ width: 90% }
+  .width-100-lg{ width: 100% }
+
+  .max-width-lg-1{ max-width: 24rem }
+  .max-width-lg-2{ max-width: 32rem }
+  .max-width-lg-3{ max-width: 48rem }
+  .max-width-lg-4{ max-width: 64rem }
+
+  .border-box-lg{ box-sizing:border-box }
+}

@@ -1,0 +1,79 @@
+.relative, .relative-xs{ position:relative }
+.absolute, .absolute-xs{ position:absolute }
+.fixed, .fixed-xs{ position:fixed }
+
+.top-0, .top-0-xs{ top:0 }
+.right-0, .right-0-xs{ right:0 }
+.bottom-0, .bottom-0-xs{ bottom:0 }
+.left-0, .left-0-xs{ left:0 }
+
+.z1, .z1-xs{ z-index: 1 }
+.z2, .z2-xs{ z-index: 2 }
+.z3, .z3-xs{ z-index: 3 }
+.z4, .z4-xs{ z-index: 4 }
+
+.align-baseline, .align-baseline-xs{ vertical-align:baseline }
+.align-top, .align-top-xs{ vertical-align:top }
+.align-middle, .align-middle-xs{ vertical-align:middle }
+.align-bottom, .align-bottom-xs{ vertical-align:bottom }
+
+@media (min-width: $screen-sm-min) {
+  .relative-sm{ position:relative }
+  .absolute-sm{ position:absolute }
+  .fixed-sm{ position:fixed }
+
+  .top-0-sm{ top:0 }
+  .right-0-sm{ right:0 }
+  .bottom-0-sm{ bottom:0 }
+  .left-0-sm{ left:0 }
+
+  .z1-sm{ z-index: 1 }
+  .z2-sm{ z-index: 2 }
+  .z3-sm{ z-index: 3 }
+  .z4-sm{ z-index: 4 }
+
+  .align-baseline-sm{ vertical-align:baseline }
+  .align-top-sm{ vertical-align:top }
+  .align-middle-sm{ vertical-align:middle }
+  .align-bottom-sm{ vertical-align:bottom }
+}
+@media (min-width: $screen-md-min) {
+  .relative-md{ position:relative }
+  .absolute-md{ position:absolute }
+  .fixed-md{ position:fixed }
+
+  .top-0-md{ top:0 }
+  .right-0-md{ right:0 }
+  .bottom-0-md{ bottom:0 }
+  .left-0-md{ left:0 }
+
+  .z1-md{ z-index: 1 }
+  .z2-md{ z-index: 2 }
+  .z3-md{ z-index: 3 }
+  .z4-md{ z-index: 4 }
+
+  .align-baseline-md{ vertical-align:baseline }
+  .align-top-md{ vertical-align:top }
+  .align-middle-md{ vertical-align:middle }
+  .align-bottom-md{ vertical-align:bottom }
+}
+@media (min-width: $screen-lg-min) {
+  .relative-lg{ position:relative }
+  .absolute-lg{ position:absolute }
+  .fixed-lg{ position:fixed }
+
+  .top-0-lg{ top:0 }
+  .right-0-lg{ right:0 }
+  .bottom-0-lg{ bottom:0 }
+  .left-0-lg{ left:0 }
+
+  .z1-lg{ z-index: 1 }
+  .z2-lg{ z-index: 2 }
+  .z3-lg{ z-index: 3 }
+  .z4-lg{ z-index: 4 }
+
+  .align-baseline-lg{ vertical-align:baseline }
+  .align-top-lg{ vertical-align:top }
+  .align-middle-lg{ vertical-align:middle }
+  .align-bottom-lg{ vertical-align:bottom }
+}
